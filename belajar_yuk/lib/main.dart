@@ -1,4 +1,6 @@
 import 'package:belajar_yuk/view/login_page.dart';
+import 'package:belajar_yuk/view/main_page.dart';
+import 'package:belajar_yuk/view/register_page.dart';
 import 'package:belajar_yuk/view/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -31,6 +33,8 @@ class MyApp extends StatelessWidget {
       routes: {
         "/" : (context) => const SplashScreen(),
         LoginPage.route : (context) => const LoginPage(),
+        RegisterPage.route:(context) => const RegisterPage(),
+        MainPage.route:(context) => const MainPage(),
       },
     );
   }
