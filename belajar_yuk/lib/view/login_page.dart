@@ -15,7 +15,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: R.colors.grey,
+      backgroundColor: Color(0xfff3f7f8),
       body: Padding(
         padding: const EdgeInsets.all(32.0),
         child: Column(
@@ -42,7 +42,8 @@ class _LoginPageState extends State<LoginPage> {
             ),
             Text(
               R.strings.welcome,
-              style: TextStyle(
+              style: 
+              TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.w500,
               ),

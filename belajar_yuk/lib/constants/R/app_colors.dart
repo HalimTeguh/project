@@ -5,6 +5,7 @@ class AppColor{
   Color grey = Color(0xffF3F7F8);
   Color greyBorder = Color(0xffD6D6D6);
   Color greyHintText = Color(0xffAAAAAA);
+  Color greyCardText = Color(0xff8e8e8e);
 
   Color borderLoginGoogle = Color(0xFF01B1AF);
   Color blackLogin = Color(0xFF1A1F26);
